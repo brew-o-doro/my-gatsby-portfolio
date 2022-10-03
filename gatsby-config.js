@@ -1,6 +1,6 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 /**
  * @type {import('gatsby').GatsbyConfig}
@@ -13,10 +13,7 @@ module.exports = {
     siteTitle: `Teodoro`,
     siteTitleAlt: `Teodoro - Gatsby Portfolio`,
     siteHeadline: `Teodoro - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
-    siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
   },
   plugins: [
     {
@@ -59,4 +56,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
